@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,47 @@
 		673B713B261B4DF8003FBEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673B713A261B4DF8003FBEAF /* Assets.xcassets */; };
 		673B713E261B4DF8003FBEAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673B713D261B4DF8003FBEAF /* Preview Assets.xcassets */; };
 		673B7141261B4DF8003FBEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673B713F261B4DF8003FBEAF /* LaunchScreen.storyboard */; };
+		673B715A261B4F6C003FBEAF /* FancyScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = 673B7159261B4F6C003FBEAF /* FancyScrollView */; };
+		673B715D261B5017003FBEAF /* NeumorphismUI in Frameworks */ = {isa = PBXBuildFile; productRef = 673B715C261B5017003FBEAF /* NeumorphismUI */; };
+		673B7161261B5090003FBEAF /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 673B7160261B5090003FBEAF /* SwiftUICharts */; };
+		673B7164261B50A3003FBEAF /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 673B7163261B50A3003FBEAF /* URLImage */; };
+		673B7166261B50DE003FBEAF /* FeaturedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7165261B50DE003FBEAF /* FeaturedCard.swift */; };
+		673B7168261B50F1003FBEAF /* CurrentStateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7167261B50F1003FBEAF /* CurrentStateCell.swift */; };
+		673B716A261B5101003FBEAF /* NewsStoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7169261B5101003FBEAF /* NewsStoryCell.swift */; };
+		673B716C261B5112003FBEAF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B716B261B5112003FBEAF /* MapView.swift */; };
+		673B716E261B5128003FBEAF /* CountryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B716D261B5128003FBEAF /* CountryDetail.swift */; };
+		673B7170261B5137003FBEAF /* OverallStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B716F261B5137003FBEAF /* OverallStat.swift */; };
+		673B7172261B514C003FBEAF /* CountryMapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7171261B514C003FBEAF /* CountryMapPin.swift */; };
+		673B7174261B515A003FBEAF /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7173261B515A003FBEAF /* Background.swift */; };
+		673B7176261B5167003FBEAF /* Neumorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7175261B5167003FBEAF /* Neumorphic.swift */; };
+		673B7178261B5178003FBEAF /* BasicCountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7177261B5178003FBEAF /* BasicCountryCell.swift */; };
+		673B717A261B518B003FBEAF /* NeumorphicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7179261B518B003FBEAF /* NeumorphicCard.swift */; };
+		673B717C261B5197003FBEAF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B717B261B5197003FBEAF /* WebView.swift */; };
+		673B717E261B51AE003FBEAF /* Graphello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B717D261B51AE003FBEAF /* Graphello.swift */; };
+		673B7180261B51CE003FBEAF /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 673B717F261B51CE003FBEAF /* swiftgen.yml */; };
+		673B7182261B51DF003FBEAF /* Languages.string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7181261B51DF003FBEAF /* Languages.string.swift */; };
+		673B7184261B51F5003FBEAF /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7183261B51F5003FBEAF /* Strings+Generated.swift */; };
+		673B7186261B5234003FBEAF /* Languages.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 673B7185261B5234003FBEAF /* Languages.stringsdict */; };
+		673B7188261B524C003FBEAF /* Covid.graphql.json in Resources */ = {isa = PBXBuildFile; fileRef = 673B7187261B524C003FBEAF /* Covid.graphql.json */; };
+		673B718A261B525F003FBEAF /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 673B7189261B525F003FBEAF /* config.json */; };
+		673B718D261B528B003FBEAF /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B718C261B528B003FBEAF /* HomePage.swift */; };
+		673B718F261B52A8003FBEAF /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B718E261B52A8003FBEAF /* Info.swift */; };
+		673B7191261B52C5003FBEAF /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7190261B52C5003FBEAF /* DesignSystem.swift */; };
+		673B7193261B52E1003FBEAF /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673B7192261B52E1003FBEAF /* Modifiers.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		673B7157261B4F27003FBEAF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		673B7131261B4DF6003FBEAF /* CovidMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +64,29 @@
 		673B713D261B4DF8003FBEAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		673B7140261B4DF8003FBEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		673B7142261B4DF8003FBEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		673B7165261B50DE003FBEAF /* FeaturedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCard.swift; sourceTree = "<group>"; };
+		673B7167261B50F1003FBEAF /* CurrentStateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentStateCell.swift; sourceTree = "<group>"; };
+		673B7169261B5101003FBEAF /* NewsStoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStoryCell.swift; sourceTree = "<group>"; };
+		673B716B261B5112003FBEAF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		673B716D261B5128003FBEAF /* CountryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetail.swift; sourceTree = "<group>"; };
+		673B716F261B5137003FBEAF /* OverallStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallStat.swift; sourceTree = "<group>"; };
+		673B7171261B514C003FBEAF /* CountryMapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryMapPin.swift; sourceTree = "<group>"; };
+		673B7173261B515A003FBEAF /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		673B7175261B5167003FBEAF /* Neumorphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neumorphic.swift; sourceTree = "<group>"; };
+		673B7177261B5178003FBEAF /* BasicCountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCountryCell.swift; sourceTree = "<group>"; };
+		673B7179261B518B003FBEAF /* NeumorphicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicCard.swift; sourceTree = "<group>"; };
+		673B717B261B5197003FBEAF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		673B717D261B51AE003FBEAF /* Graphello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphello.swift; sourceTree = "<group>"; };
+		673B717F261B51CE003FBEAF /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		673B7181261B51DF003FBEAF /* Languages.string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.string.swift; sourceTree = "<group>"; };
+		673B7183261B51F5003FBEAF /* Strings+Generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		673B7185261B5234003FBEAF /* Languages.stringsdict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.stringsdict; path = Languages.stringsdict; sourceTree = "<group>"; };
+		673B7187261B524C003FBEAF /* Covid.graphql.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Covid.graphql.json; sourceTree = "<group>"; };
+		673B7189261B525F003FBEAF /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		673B718C261B528B003FBEAF /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		673B718E261B52A8003FBEAF /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		673B7190261B52C5003FBEAF /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		673B7192261B52E1003FBEAF /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +94,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673B7161261B5090003FBEAF /* SwiftUICharts in Frameworks */,
+				673B715D261B5017003FBEAF /* NeumorphismUI in Frameworks */,
+				673B7164261B50A3003FBEAF /* URLImage in Frameworks */,
+				673B715A261B4F6C003FBEAF /* FancyScrollView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +125,28 @@
 			children = (
 				673B7134261B4DF6003FBEAF /* AppDelegate.swift */,
 				673B7136261B4DF6003FBEAF /* SceneDelegate.swift */,
-				673B7138261B4DF6003FBEAF /* ContentView.swift */,
+				673B7190261B52C5003FBEAF /* DesignSystem.swift */,
+				673B7192261B52E1003FBEAF /* Modifiers.swift */,
+				673B718B261B526E003FBEAF /* Views */,
+				673B7165261B50DE003FBEAF /* FeaturedCard.swift */,
+				673B7167261B50F1003FBEAF /* CurrentStateCell.swift */,
+				673B7169261B5101003FBEAF /* NewsStoryCell.swift */,
+				673B716B261B5112003FBEAF /* MapView.swift */,
+				673B716D261B5128003FBEAF /* CountryDetail.swift */,
+				673B716F261B5137003FBEAF /* OverallStat.swift */,
+				673B7171261B514C003FBEAF /* CountryMapPin.swift */,
+				673B7173261B515A003FBEAF /* Background.swift */,
+				673B7175261B5167003FBEAF /* Neumorphic.swift */,
+				673B7177261B5178003FBEAF /* BasicCountryCell.swift */,
+				673B7179261B518B003FBEAF /* NeumorphicCard.swift */,
+				673B717B261B5197003FBEAF /* WebView.swift */,
+				673B717D261B51AE003FBEAF /* Graphello.swift */,
+				673B717F261B51CE003FBEAF /* swiftgen.yml */,
+				673B7181261B51DF003FBEAF /* Languages.string.swift */,
+				673B7183261B51F5003FBEAF /* Strings+Generated.swift */,
+				673B7185261B5234003FBEAF /* Languages.stringsdict */,
+				673B7189261B525F003FBEAF /* config.json */,
+				673B7187261B524C003FBEAF /* Covid.graphql.json */,
 				673B713A261B4DF8003FBEAF /* Assets.xcassets */,
 				673B713F261B4DF8003FBEAF /* LaunchScreen.storyboard */,
 				673B7142261B4DF8003FBEAF /* Info.plist */,
@@ -75,6 +163,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		673B718B261B526E003FBEAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				673B7138261B4DF6003FBEAF /* ContentView.swift */,
+				673B718C261B528B003FBEAF /* HomePage.swift */,
+				673B718E261B52A8003FBEAF /* Info.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,12 +183,19 @@
 				673B712D261B4DF6003FBEAF /* Sources */,
 				673B712E261B4DF6003FBEAF /* Frameworks */,
 				673B712F261B4DF6003FBEAF /* Resources */,
+				673B7157261B4F27003FBEAF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CovidMate;
+			packageProductDependencies = (
+				673B7159261B4F6C003FBEAF /* FancyScrollView */,
+				673B715C261B5017003FBEAF /* NeumorphismUI */,
+				673B7160261B5090003FBEAF /* SwiftUICharts */,
+				673B7163261B50A3003FBEAF /* URLImage */,
+			);
 			productName = CovidMate;
 			productReference = 673B7131261B4DF6003FBEAF /* CovidMate.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +223,14 @@
 				Base,
 			);
 			mainGroup = 673B7128261B4DF6003FBEAF;
+			packageReferences = (
+				673B7149261B4F27003FBEAF /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				673B7158261B4F6C003FBEAF /* XCRemoteSwiftPackageReference "FancyScrollView" */,
+				673B715B261B5017003FBEAF /* XCRemoteSwiftPackageReference "NeumorphismUI" */,
+				673B715E261B506D003FBEAF /* XCRemoteSwiftPackageReference "swift-nio-zlib-support" */,
+				673B715F261B5090003FBEAF /* XCRemoteSwiftPackageReference "ChartView" */,
+				673B7162261B50A3003FBEAF /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 673B7132261B4DF6003FBEAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,9 +245,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673B718A261B525F003FBEAF /* config.json in Resources */,
+				673B7188261B524C003FBEAF /* Covid.graphql.json in Resources */,
 				673B7141261B4DF8003FBEAF /* LaunchScreen.storyboard in Resources */,
 				673B713E261B4DF8003FBEAF /* Preview Assets.xcassets in Resources */,
 				673B713B261B4DF8003FBEAF /* Assets.xcassets in Resources */,
+				673B7186261B5234003FBEAF /* Languages.stringsdict in Resources */,
+				673B7180261B51CE003FBEAF /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,9 +262,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673B7174261B515A003FBEAF /* Background.swift in Sources */,
+				673B7170261B5137003FBEAF /* OverallStat.swift in Sources */,
+				673B7184261B51F5003FBEAF /* Strings+Generated.swift in Sources */,
+				673B7182261B51DF003FBEAF /* Languages.string.swift in Sources */,
+				673B716C261B5112003FBEAF /* MapView.swift in Sources */,
+				673B716A261B5101003FBEAF /* NewsStoryCell.swift in Sources */,
+				673B7172261B514C003FBEAF /* CountryMapPin.swift in Sources */,
 				673B7135261B4DF6003FBEAF /* AppDelegate.swift in Sources */,
+				673B718D261B528B003FBEAF /* HomePage.swift in Sources */,
+				673B717C261B5197003FBEAF /* WebView.swift in Sources */,
 				673B7137261B4DF6003FBEAF /* SceneDelegate.swift in Sources */,
+				673B717E261B51AE003FBEAF /* Graphello.swift in Sources */,
+				673B7193261B52E1003FBEAF /* Modifiers.swift in Sources */,
 				673B7139261B4DF6003FBEAF /* ContentView.swift in Sources */,
+				673B718F261B52A8003FBEAF /* Info.swift in Sources */,
+				673B7178261B5178003FBEAF /* BasicCountryCell.swift in Sources */,
+				673B716E261B5128003FBEAF /* CountryDetail.swift in Sources */,
+				673B7176261B5167003FBEAF /* Neumorphic.swift in Sources */,
+				673B7168261B50F1003FBEAF /* CurrentStateCell.swift in Sources */,
+				673B7191261B52C5003FBEAF /* DesignSystem.swift in Sources */,
+				673B7166261B50DE003FBEAF /* FeaturedCard.swift in Sources */,
+				673B717A261B518B003FBEAF /* NeumorphicCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +481,80 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		673B7149261B4F27003FBEAF /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.42.0;
+			};
+		};
+		673B7158261B4F6C003FBEAF /* XCRemoteSwiftPackageReference "FancyScrollView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nerdsupremacist/FancyScrollView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+		673B715B261B5017003FBEAF /* XCRemoteSwiftPackageReference "NeumorphismUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tsuzukihashi/NeumorphismUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.7;
+			};
+		};
+		673B715E261B506D003FBEAF /* XCRemoteSwiftPackageReference "swift-nio-zlib-support" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio-zlib-support.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		673B715F261B5090003FBEAF /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+		673B7162261B50A3003FBEAF /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		673B7159261B4F6C003FBEAF /* FancyScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 673B7158261B4F6C003FBEAF /* XCRemoteSwiftPackageReference "FancyScrollView" */;
+			productName = FancyScrollView;
+		};
+		673B715C261B5017003FBEAF /* NeumorphismUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 673B715B261B5017003FBEAF /* XCRemoteSwiftPackageReference "NeumorphismUI" */;
+			productName = NeumorphismUI;
+		};
+		673B7160261B5090003FBEAF /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 673B715F261B5090003FBEAF /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		673B7163261B50A3003FBEAF /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 673B7162261B50A3003FBEAF /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 673B7129261B4DF6003FBEAF /* Project object */;
 }
